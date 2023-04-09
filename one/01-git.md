@@ -11,3 +11,4 @@
 * git add
 * git commit
 * git push
+* git commit --allow-empty -m "Empty commit"
