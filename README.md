@@ -3,7 +3,7 @@
 ## markdown-usage
 bold - `**temp**`\
 italics - `_temp_`\
-headers - `#,##,###,so on upto six`\; can't make them bold, only italic\
+headers - `#,##,###,so on upto six; can't make them bold, only italic`\
 link - `[text](link)`\
 image - `![alt text](link)`\
 blockquote - `> "In a few moments"`\
