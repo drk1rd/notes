@@ -1,4 +1,4 @@
-# markdown-usage
+# markdown
 
 bold - `**temp**`\
 italics - `_temp_`\
