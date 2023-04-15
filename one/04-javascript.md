@@ -68,5 +68,13 @@
 * `||` or; evaluates left to right; finds first truthy value to return if none found gives last operand
 * `&&` and; finds falsy value if none found and everything was truthy gives the last operand; higher precedence than `||`
 * `!` not; `!!` sometimes used to convert value to boolean type
-*  
 
+## functions
+* `function func(parameters) {}`
+* scopes do exist
+* use `return` to return values for further use
+* default parameters are the ones that are assigned with something in the brackets itself
+* arrow functions; `let func = (arg1, arg2, ..., argN) => expression;` returns whatever the expression evaluates
+* multiline arrow uses curly braces
+* the call stack works based on the LIFO principle i.e., last-in-first-out
+* if the number of execution contexts exceeds the size of the stack, a stack overflow error will occur
