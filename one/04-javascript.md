@@ -78,3 +78,8 @@
 * multiline arrow uses curly braces
 * the call stack works based on the LIFO principle i.e., last-in-first-out
 * if the number of execution contexts exceeds the size of the stack, a stack overflow error will occur
+
+## errors
+* `ReferenceError` thrown when one refers to a variable that is not declared and/or initialized within the current scope
+* `SyntaxError`
+* `TypeError`
