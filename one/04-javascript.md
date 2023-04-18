@@ -4,11 +4,12 @@
 * within: `<script>..code..</script>`  
 * outside: `<script src="javascript.js"></script>`  
 
-## general
+## miscellaneous
 * `console.log()` to output to console
 * use `alert(variable)` to show content
 * use `prompt()` for input
 * use `${variable}` to use a variable in another whatever
+* to get a random value from an array `let randomItem = myArray[Math.floor(Math.random()*myArray.length)];`
 
 ## variables
 * use `var`, `let`, `const`; latter two being relatively new  
