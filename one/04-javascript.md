@@ -15,6 +15,7 @@
 * use `var`, `let`, `const`; latter two being relatively new  
 * `use strict` is a thing  
 * for constant values use `const`
+* to use them in strings; put the string within backtick and put the variable like `${variable}`
 
 ## math
 * normal arithmetic applies
