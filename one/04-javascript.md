@@ -112,3 +112,4 @@
 * `.flat()` creates a new array with sub-array elements concatenated to a specified depth
 * `.splice(wherenewelementsshouldbeadded, howmanyelementsshouldberemoved, items)`
 * `.slice(start, end)` creates a new array from the index forward, excluding end index; end index not necessary
+* `.reverse()`
