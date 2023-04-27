@@ -85,3 +85,30 @@
 * `ReferenceError` thrown when one refers to a variable that is not declared and/or initialized within the current scope
 * `SyntaxError`
 * `TypeError`
+
+## objects
+* ` const object = {firstkey:"one", secondkey:"two", thirdkey:3}; `
+* this can be accessed by `object.firstkey`, and so on
+* named index
+
+## arrays
+* numbered index
+* `const cars = ["one", "two", "three"];`  
+ also can just create `= []` and then give in values  
+ can be accessed by using indexes  
+ item can be changed
+* array item can be accessed in html by `document.getElementById("id").innerHTML = arrayname;`
+* `.length`
+* `.sort()`
+* `.forEach(a function for each value)`
+* `.push()` adds a new item
+* `.pop()`
+* `.toString()` puts the value to string with comma separation
+* `.join(specify the separator)`
+* `.shift()` removes first element
+* `.unshift()` adds to first index
+* `delete arr[index]` deletes an item but leaves holes in place
+* `.concat(other array)` joins the array, can put multiple array by commas
+* `.flat()` creates a new array with sub-array elements concatenated to a specified depth
+* `.splice(wherenewelementsshouldbeadded, howmanyelementsshouldberemoved, items)`
+* `.slice(start, end)` creates a new array from the index forward, excluding end index; end index not necessary
