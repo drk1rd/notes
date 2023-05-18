@@ -113,3 +113,22 @@
 * `.splice(wherenewelementsshouldbeadded, howmanyelementsshouldberemoved, items)`
 * `.slice(start, end)` creates a new array from the index forward, excluding end index; end index not necessary
 * `.reverse()`
+
+## dom
+* tree-like representation of the contents of a webpage - a tree of “nodes” with different relationships depending on how they’re arranged in the HTML document.
+* selectors:  
+ `div.display`  
+ `.display`  
+ `#container > .display`  
+ `div#container > div.display`  
+ `firstElementChild`  
+ `lastElementChild`
+* query selectors:  
+ `element.querySelector(selector)` returns a reference to the first match of selector  
+ `element.querySelectorAll(selectors)` returns a “nodelist” containing references to all of the matches of the selectors; the return value is not an array. it looks like an array, and it somewhat acts like an array, but it’s really a “nodelist”. to convert the nodelist into an array. You can do this with Array.from()
+* element creation, appening, removing:  
+ `document.createElement(tagName, [options])` creates a new element of tag type tagName. creates it in memory.  
+ `parentNode.appendChild(childNode)` appends childNode as the last child of parentNode  
+ `parentNode.insertBefore(newNode, referenceNode)` inserts newNode into parentNode before referenceNode
+ `parentNode.removeChild(child)` removes child from parentNode on the DOM and returns a reference to child
+ 
