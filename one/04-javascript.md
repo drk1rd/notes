@@ -131,4 +131,16 @@
  `parentNode.appendChild(childNode)` appends childNode as the last child of parentNode  
  `parentNode.insertBefore(newNode, referenceNode)` inserts newNode into parentNode before referenceNode
  `parentNode.removeChild(child)` removes child from parentNode on the DOM and returns a reference to child
- 
+* altering:  
+ `const div = document.createElement('div');`  // creates a new div referenced in the variable 'div'
+ `div.style.color = 'blue';`   
+ `div.style.cssText = 'color: blue; background: white;';` 
+ `div.setAttribute('style', 'color: blue; background: white;');`  
+ `div.setAttribute('id', 'theDiv');`  
+ `div.getAttribute('id');` //returns value
+ `div.removeAttribute('id');`  
+ `div.classList.add('new');`  // adds class "new" to your new div  
+ `div.classList.remove('new');` 
+`div.classList.toggle('active');` //if has then remove, if don't then add  
+`div.textContent = 'Hello World!'`  //creates a text node containing "Hello World!"  
+`div.innerHTML = '<span>Hello World!</span>';`
