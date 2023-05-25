@@ -163,3 +163,4 @@
  `  alert("Hello World");`  
  `});`  
 * `function (e)` can be used in place of arguments to callback to the event as an object
+* `bubbling` is when for ex you click on something nested within something, it also clicks the parents; can use `stopPropagation` to prevent this
