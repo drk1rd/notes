@@ -144,3 +144,22 @@
 `div.classList.toggle('active');` //if has then remove, if don't then add  
 `div.textContent = 'Hello World!'`  //creates a text node containing "Hello World!"  
 `div.innerHTML = '<span>Hello World!</span>';`
+
+## events
+* several methods:  
+ one:  
+  not ideal  
+  `<button onclick="alert('Hello World')">Click Me</button>`  
+ two:  
+   html:
+   `<button id="btn">Click Me</button>`  
+   js:  
+   `const btn = document.querySelector('#btn');`  
+   `btn.onclick = () => alert("Hello World");`  
+ third:  
+ preferred method!  
+ `const btn = document.querySelector('#btn');`  
+ `btn.addEventListener('click', () => {`  
+ `  alert("Hello World");`  
+ `});`  
+* `function (e)` can be used in place of arguments to callback to the event as an object
