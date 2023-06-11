@@ -164,3 +164,37 @@
  `});`  
 * `function (e)` can be used in place of arguments to callback to the event as an object
 * `bubbling` is when for ex you click on something nested within something, it also clicks the parents; can use `stopPropagation` to prevent this
+
+## objects
+* `let user = new Object();` // "object constructor" syntax  
+`let user = {};`  // "object literal" syntax
+* let user = {     
+  name: "John",    
+  age: 30,
+  "likes birds": true,          
+};
+* alert( user.name );  
+alert(user["likes birds"]);
+* computed property:  
+let fruit = prompt("Which fruit to buy?", "apple");  
+let bag = {  
+  [fruit]: 5, // the name of the property is taken from the variable fruit  
+};  
+alert( bag.apple ); // 5 if fruit="apple"
+* alert( "age" in user ); // true, user.age exists
+* for (key in object) {  
+  // executes the body for each key among object properties  
+}
+
+
+## some more array stuff
+* `.filter`: pass a function, that function loops over every item in array and give what we are looking for.
+* `.map`: takes in an array, do something to that array and return a new array of same length,
+* `.sort`: what it says. you sort by returning 1 or -1, which bubbles the array.
+* `.reduce`: combination of sort and map.
+* `.some`: checks if atleast one thing in array matched what you are looking for.
+* `.every`: checks for everyone.
+* `.find`: like filter but just returns the first item it finds.
+* `.findIndex`: find where an item is.
+* example in webos series 2 and 4.
+* also https://javascript.info/array-methods.
